@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Application 6 – [Your Name]</title>
+  <title>Application 6 – [Will Goodale]</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -29,32 +29,22 @@
   </style>
 </head>
 <body>
-
-  <h1>Application 6: [Your Project Title]</h1>
-  <p><strong>By:</strong> [Your Name]</p>
-
+  <h1>Application 6: [Universal Creative]</h1>
+  <p><strong>By:</strong> [Will Goodale]</p>
   <h2>About This Project</h2>
   <p>
-    [Write 3–5 sentences describing your project for a general audience.
-     What does it do? Who is it for? What problem does it solve?]
+    I built this Ride Controller for Universal Creative using an ESP32 and FreeRTOS to make sure the emergency brakes are functional. 
+    To keep things safe, I put the braking logic on its own dedicated CPU core, so it never gets bogged down by the WiFi or web dashboard. I used AJAX 
+    polling and Mutexes to keep the data clean and the system stable. My timing logs show the brake task hits its 50ms deadline 
+    every time, leaving a huge safety margin to stop the ride instantly, no matter how much sensor spamming it takes.
   </p>
-
   <h2>Demo Video</h2>
   <div class="video-wrapper">
-    <!-- Replace VIDEO_ID with your actual YouTube video ID -->
     <iframe
-      src="https://www.youtube.com/embed/VIDEO_ID"
+      src="https://www.youtube.com/embed/QpDehEM70jQ"
       title="Project Demo"
       allowfullscreen>
     </iframe>
   </div>
-
-  <h2>Key Features</h2>
-  <ul>
-    <li>[Feature 1]</li>
-    <li>[Feature 2]</li>
-    <li>[Feature 3]</li>
-  </ul>
-
 </body>
 </html>
